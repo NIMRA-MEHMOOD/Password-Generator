@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input">
+        <form>
+            <input type="email" placeholder="Email" name="email" required>
+            <input id="pass-valid" type="text" placeholder="Password" name="password" required>
+            <div class="pass-req">
+                <ul>
+                    <li class="lowercase"><span></span>One Lowercase Letter</li>
+                    <li class="Capital"><span></span>One Capital Letter</li>
+                    <li class="Number"><span></span>One Number</li>
+                    <li class="Special"><span></span>One Special Character</li>
+                    <li class="Character"><span></span>At Least 8 Characters</li>
+                </ul>
+            </div>
+            <input class="submit active" type="submit" value="Login">
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
